@@ -18,8 +18,7 @@ from django.urls import path
 from proyecto.views import home,blog
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('home/', home),
+    path('', home),
     path('blog/', blog),
       
 
